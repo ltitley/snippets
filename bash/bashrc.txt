@@ -1,0 +1,7 @@
+# Strips the process ids from the output of ps ax.
+alias stripPID='sed "s/^\s\s\([0-9]\+\)\s.*/\1/g"' # pulls the pid out from 'ps ax' output
+
+# Opens a text window for writing notes during the day.
+alias worklog='vim `date "+$HOME/worklog/worklog_%Y_%m_%d.py"`' 
+                                                                
+alias gs='git status'
